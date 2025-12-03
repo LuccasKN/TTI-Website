@@ -1,0 +1,235 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trauma Team - International</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="Icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Icons/favicon-16x16.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Images/TTIlogoLarge.png" alt="Logo Trauma Team" class="logo-img">TRAUMA TEAM
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">INÍCIO</a></li>
+                <li><a href="#services">SERVIÇOS</a></li>
+                <li><a href="#about">SOBRE</a></li>
+                <li><a href="#contact">CONTATO</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+        </button>
+    </header>
+
+    <div class="mobile-nav-overlay">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">INÍCIO</a></li>
+            <li><a href="#services">SERVIÇOS</a></li>
+            <li><a href="#about">SOBRE</a></li>
+            <li><a href="#contact">CONTATO</a></li>
+        </ul>
+    </div>
+
+    <section id="home" class="hero">
+        <p class="slogan">Sua <span class="slogan-red">Vida</span>,<br>Nossa <span
+                class="slogan-blue">Prioridade</span><span class="blink">.</span></p>
+    </section>
+
+    <section id="services" class="content-section">
+        <h1 class="section-heading">Nossos Planos de Cobertura</h1>
+        <div class="plans-container">
+            <div class="plan-card plan-silver">
+                <div class="plan-content">
+                    <h2 class="plan-title">Silver</h2>
+                    <p class="plan-description">Cobertura básica para situações críticas. Resposta médica limitada.</p>
+                    <p class="plan-price">$49.99</p>
+                    <ul class="plan-features">
+                        <li class="plan-feature">
+                            <svg class="feature-icon feature-icon-green" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" stroke="currentColor" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke-width="2" stroke-linejoin="round"
+                                    stroke-linecap="round"></path>
+                            </svg>
+                            Atendimento de Emergência Imediato
+                        </li>
+                        <li class="plan-feature">
+                            <svg class="feature-icon feature-icon-red" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 18L18 6M6 6l12 12" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Cobertura Médica Completa
+                        </li>
+                        <li class="plan-feature">
+                            <svg class="feature-icon feature-icon-red" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 18L18 6M6 6l12 12" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Evacuação com Equipe Armada e Transporte Aéreo Dedicado
+                        </li>
+                    </ul>
+                </div>
+                <div class="plan-footer">
+                    <button class="plan-button">Selecionar</button>
+                </div>
+            </div>
+
+            <div class="plan-card plan-gold">
+                <div class="plan-content">
+                    <h2 class="plan-title">Gold</h2>
+                    <p class="plan-description">Atendimento médico prioritário, com cobertura parcial de procedimentos
+                        avançados.</p>
+                    <p class="plan-price">$99.99</p>
+                    <ul class="plan-features">
+                        <li class="plan-feature">
+                            <svg class="feature-icon feature-icon-green" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" stroke="currentColor" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke-width="2" stroke-linejoin="round"
+                                    stroke-linecap="round"></path>
+                            </svg>
+                            Atendimento de Emergência Imediato
+                        </li>
+                        <li class="plan-feature">
+                            <svg class="feature-icon feature-icon-green" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" stroke="currentColor" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke-width="2" stroke-linejoin="round"
+                                    stroke-linecap="round"></path>
+                            </svg>
+                            Cobertura Médica Completa
+                        </li>
+                        <li class="plan-feature">
+                            <svg class="feature-icon feature-icon-red" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 18L18 6M6 6l12 12" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Evacuação com Equipe Armada e Transporte Aéreo Dedicado
+                        </li>
+                    </ul>
+                </div>
+                <div class="plan-footer">
+                    <button class="plan-button">Selecionar</button>
+                </div>
+            </div>
+
+            <div class="plan-card plan-platinum">
+                <div class="plan-content">
+                    <h2 class="plan-title">Platinum</h2>
+                    <p class="plan-description">Resposta total e imediata, incluindo evacuação aérea e cobertura
+                        completa. O mais alto nível de segurança e atendimento médico.</p>
+                    <p class="plan-price">$149.99</p>
+                    <ul class="plan-features">
+                        <li class="plan-feature">
+                            <svg class="feature-icon feature-icon-green" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" stroke="currentColor" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke-width="2" stroke-linejoin="round"
+                                    stroke-linecap="round"></path>
+                            </svg>
+                            Atendimento de Emergência Imediato
+                        </li>
+                        <li class="plan-feature">
+                            <svg class="feature-icon feature-icon-green" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" stroke="currentColor" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke-width="2" stroke-linejoin="round"
+                                    stroke-linecap="round"></path>
+                            </svg>
+                            Cobertura Médica Completa
+                        </li>
+                        <li class="plan-feature">
+                            <svg class="feature-icon feature-icon-green" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" stroke="currentColor" fill="none">
+                                <path d="M5 13l4 4L19 7" stroke-width="2" stroke-linejoin="round"
+                                    stroke-linecap="round"></path>
+                            </svg>
+                            Evacuação com Equipe Armada e Transporte Aéreo Dedicado
+                        </li>
+                    </ul>
+                </div>
+                <div class="plan-footer">
+                    <button class="plan-button">Selecionar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="content-section about-section">
+        <h1 class="section-heading">"Em Night City, a morte chega rápido. Nós chegamos mais."</h1>
+        <div class="about-flex-container">
+            <div class="about-text">
+                <p class="texto-descricao">
+                    A Trauma Team International é a maior fornecedora de serviços médicos do mundo, oferecendo
+                    diversas soluções para a saúde. Nossa corporação abrange desde produtos médicos inovadores
+                    e seguros de saúde abrangentes até implantes de nível clínico e procedimentos cirúrgicos de
+                    substituição de
+                    última geração.
+                </p>
+                <img src="Images/TTIgptVA.png" alt="Trauma Team AV" class="image-full-width">
+            </div>
+            <div class="about-image-container">
+                <img src="Images/TTImembers.png" alt="Trauma Team Members" class="image-full-width">
+                <p class="texto-descricao">
+                    Com equipamentos de ponta, instalações médicas altamente avançadas e décadas de investimento
+                    contínuo em
+                    pesquisa e desenvolvimento, a TTI é líder da indústria em cuidados médicos
+                    confiáveis e eficientes. Nosso compromisso com a excelência nos permite atender às necessidades dos
+                    clientes
+                    mais exigentes, garantindo tratamentos rápidos, seguros e tecnologicamente superiores.
+                </p>
+            </div>
+        </div>
+        <p class="texto-descricao mt-8">
+            Seja em situações de emergência ou cirurgias complexas, a Trauma Team International
+            está sempre preparada para oferecer soluções médicas inovadoras, elevando o nível da assistência à saúde e
+            proporcionando mais segurança e qualidade de vida para pacientes em todo o mundo.
+        </p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h1 class="contact-slogan">"A dor é inevitável, mas o <br>sofrimento é opcional."</h1>
+        <div class="contact-info-card">
+            <h2>Contato</h2>
+            <ul class="contact-list">
+                <li><a href="mailto:support@traumateam.com">Suporte ao Cliente: support@traumateam.com</a></li>
+                <li><a href="mailto:invest@traumateam.com">Parceiros Comerciais e Investidores:invest@traumateam.com</a>
+                </li>
+                <li><a href="mailto:joinus@traumateam.com">Recrutamento e Carreiras: joinus@traumateam.com</a></li>
+            </ul>
+            <a href="#" class="action-button">Fale Conosco</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2077 Trauma Team International. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const mobileNavOverlay = document.querySelector('.mobile-nav-overlay');
+            const mobileNavLinks = document.querySelector('.mobile-nav-links');
+
+            menuToggle.addEventListener('click', () => {
+                mobileNavOverlay.classList.toggle('active');
+            });
+
+            mobileNavLinks.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileNavOverlay.classList.remove('active');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
